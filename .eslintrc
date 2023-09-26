@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "indent": ["error", 4],
+    "no-throw-literal": "off",
+    "space-before-function-paren": ["error", "always"],
+    "class-methods-use-this": "off"
+  },
+  "globals": {
+    "require": true,
+    "describe": true,
+    "it": true,
+    "should": true,
+    "afterEach": true,
+    "beforeEach": true,
+    "before": true,
+    "after": true
+  }
+}
